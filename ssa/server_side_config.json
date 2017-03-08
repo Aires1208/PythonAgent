@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "result": {
+    "applicationId": 140676,
+    "tingyunIdSecret": "rFZW_M3SD5o|KlSg1xu4lAc#BFYZHG0UL78",
+    "enabled": true,
+    "appSessionKey": "687879587",  // 变化
+    "dataSentInterval": 60,
+    "hotspotRules": "",
+    "hotspotPeriod": 600,
+    "apdex_t": 500,
+    "config": {
+      "nbs.agent_enabled": true,
+      "nbs.auto_action_naming": true,
+      "nbs.capture_params": false,
+      "nbs.error_collector.enabled": true,
+      "nbs.error_collector.record_db_errors": true,
+      "nbs.action_tracer.enabled": true,
+      "nbs.action_tracer.action_threshold": 2000,
+      "nbs.action_tracer.record_sql": "obfuscated",
+      "nbs.action_tracer.slow_sql": true,
+      "nbs.action_tracer.slow_sql_threshold": 0,
+      "nbs.action_tracer.explain_enabled": true,
+      "nbs.action_tracer.explain_threshold": 0,
+      "nbs.transaction_tracer.enabled": true,
+      "nbs.action_tracer.nbsua": true,
+      "nbs.rum.enabled": false,
+      "nbs.rum.script": "",
+      "nbs.rum.sample_ratio": 1.0,
+      "nbs.ignore_static_resources": true,
+      "nbs.action_tracer.remove_trailing_path": true,
+      "nbs.action_tracer.stack_trace_threshold": 500,
+      "nbs.external_url_params_captured": "",
+      "nbs.web_action_uri_params_captured": "",
+      "nbs.hotspot.enabled": false,
+      "nbs.instrumentation_custom": "[]",
+      "nbs.rum.mix_enabled": false,
+      "nbs.transaction_tracer.thrift": false
+    }
+  }
+}

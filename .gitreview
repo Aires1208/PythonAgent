@@ -1,0 +1,4 @@
+[gerrit]
+host=gerrit.zte.com.cn
+post=29418
+project=agent_python
